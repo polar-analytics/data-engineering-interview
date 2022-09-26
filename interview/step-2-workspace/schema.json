@@ -1,0 +1,16 @@
+{
+    "properties": {
+        "id": {
+            "type": "integer"
+        },
+        "userId": {
+            "type": "integer"
+        },
+        "title": {
+            "type": "string"
+        },
+        "completed": {
+            "type": "boolean"
+        }
+    }
+}

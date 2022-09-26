@@ -1,0 +1,29 @@
+---
+version: "3"
+services:
+  database:
+    container_name: database-itw
+    image: postgres:13.3-alpine
+    environment:
+      - POSTGRES_DB=data
+      - POSTGRES_USER=data
+      - POSTGRES_PASSWORD=data
+    restart: always
+  code-server:
+    container_name: code-server-itw
+    image: pcorbel/data-engineering-interview
+    links:
+      - database
+    ports:
+      - 8080:8443
+    restart: always
+  sql-server:
+    container_name: sql-server-itw
+    image: sosedoff/pgweb:0.11.8
+    links:
+      - database
+    environment:
+      - DATABASE_URL=postgres://data:data@database:5432/data?sslmode=disable
+    ports:
+      - 8081:8081
+    restart: always
