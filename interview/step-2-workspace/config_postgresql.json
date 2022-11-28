@@ -1,9 +1,0 @@
-{
-    "host": "database",
-    "port": 5432,
-    "user": "data",
-    "password": "data",
-    "dbname": "data",
-    "default_target_schema": "public",
-    "data_flattening_max_level": 2
-}
