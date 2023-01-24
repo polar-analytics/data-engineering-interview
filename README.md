@@ -7,6 +7,13 @@ You will find 🕵️‍♂️ in this repository a Python exercise in 3️⃣ s
 You can use all the libraries you love and are confortable with, as well as all the resources on the Internet (stackoverflow, etc...).  
 The only requirement is that it is developed in Python 🐍.
 
+## 0️⃣ Context
+
+We will use an API giving us access to:
+* a list of users
+* a list of tasks (todos)
+The goal is to fetch these data and extact insights from them.
+
 ## 1️⃣ Fetch users data
 
 * Fetch users data from this endpoint: https://jsonplaceholder.typicode.com/users
