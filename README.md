@@ -8,7 +8,11 @@ You can use all the libraries you love and are confortable with, as well as all 
 
 ## 1️⃣ Fetch data
 
-Fetch data from this endpoint: https://raw.githubusercontent.com/polar-analytics/data-engineering-interview/main/data.json
+List compensation data via API GET request:
+https://raw.githubusercontent.com/polar-analytics/data-engineering-interview/main/data.json
+
+- Filter by one or more fields/attributes (e.g. /compensation_data?salary[gte]=120000&zip_code=11201 )
+- Sort by one or more fields/attributes (e.g. /compensation_data?sort=last_name)
 
 ## 2️⃣ Develop a JSON Parser
 
