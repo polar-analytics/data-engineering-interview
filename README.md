@@ -31,4 +31,4 @@ The goal of this exercise is to design a read-only REST API that returns one or 
 Data: https://raw.githubusercontent.com/polar-analytics/data-engineering-interview/main/data.json
 
 - Filter by two fields/attributes: /orders?order_id=&processed_at=
-- Sort by processed_at field: /orders?sort=processed_at
+- Bonus: Sort by processed_at field: /orders?sort=processed_at
