@@ -26,7 +26,7 @@ def parse_json(input: str) -> Dict[str, Any]:
 
 ## 2️⃣ Fetch data
 
-The goal of this exercise is to design a read-only API (REST or GraphAPI) that returns one or more records from static set of shopify data.
+The goal of this exercise is to design a read-only REST API that returns one or more records from static set of shopify data.
 
 Data: https://raw.githubusercontent.com/polar-analytics/data-engineering-interview/main/data.json
 
