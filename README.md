@@ -24,11 +24,13 @@ def parse_json(input: str) -> Dict[str, Any]:
     return dictionary
 ```
 
-## 2️⃣ Fetch data
+## 2️⃣ Develop a REST API server
 
 The goal of this exercise is to design a read-only REST API that returns one or more records from static set of shopify data.
 
-Data: https://raw.githubusercontent.com/polar-analytics/data-engineering-interview/main/data.json
+Dataset to expose: https://raw.githubusercontent.com/polar-analytics/data-engineering-interview/main/data.json
 
-- Filter by two fields/attributes: /orders?order_id=&processed_at=
+Feature of the API:
+
+- Filter by two fields/attributes: /orders?order_id=123&processed_at=2023-01-01T12:00:00Z
 - Bonus: Sort by processed_at field: /orders?sort=processed_at
